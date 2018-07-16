@@ -2,7 +2,8 @@
 # and cascading those from parent to child in the dom.
 
 from openpyxl.cell import Cell
-from openpyxl.styles import Font, Alignment, PatternFill, NamedStyle, Border, Side, Color
+from openpyxl.styles import Font, Alignment, PatternFill, Border, Side, Color
+from openpyxl.styles.named_styles import NamedStyle
 from openpyxl.styles.fills import FILL_SOLID
 from openpyxl.styles.numbers import FORMAT_CURRENCY_USD_SIMPLE
 from openpyxl.styles.colors import BLACK
